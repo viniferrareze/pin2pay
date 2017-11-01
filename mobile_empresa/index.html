@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="theme-color" content="#2196f3">
+
+    <link rel="stylesheet" type="text/css" href="css/framework7.material.css" />
+    <link rel="stylesheet" type="text/css" href="css/framework7.material.colors.css" />
+    <link rel="stylesheet" type="text/css" href="css/myApp.css" />
+</head>
+
+<body class="theme-blue">
+    <div class="views">
+        <div class="statusbar-overlay"></div>
+        <div class="panel-overlay"></div>
+
+        <!-- VIEW PRINCIPAL -->
+        <div class="view view-main">
+            <div class="pages navbar-fixed">
+                <div data-page="index" class="page">
+
+                    <!-- NAVBAR -->
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="center">pin2Pay</div>
+
+                            <div class="right">
+                                <a href="#" class="more link icon-only">
+                                    <i class="icon icon-more-vert"></i>
+                                </a>
+                            </div>
+
+                            <style>
+                                .popover {
+                                    width: 150px;
+                                    text-align: center;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                    <!-- FIM NAVBAR -->
+
+                    <div class="page-content">
+                        <div class="content-block">
+
+
+                            <!-- <i class="icon icon-plus"></i> -->
+                            <!-- </a> -->
+                            <!-- <div class="divCentralizada"></div> -->
+                            <!-- <a href="#" class="inBottom button button-fill color-green"></a> -->
+                            <!-- <a href="#" class="divCentralizada button button-fill color-green"></a> -->
+
+                            <div class="item-input">
+                                <select>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+
+
+
+
+                            <div class="centralizado">
+                                <a id="btnDepositar" href="#" class="centralizadoNaDiv floating-button color-green">
+                                    <i class="icon icon-dinheiro"></i>
+                                </a>
+                            </div>
+
+                            <style>
+                                .centralizado {
+                                    position: absolute;
+                                    width: 60px;
+                                    height: 60px;
+                                    text-align: center;
+                                    float: left;
+                                    /* top: 50%; */
+                                    bottom: 1px;
+                                    left: 50%;
+                                    margin: 0;
+                                    transform: translate(-50%, -50%);
+                                }
+
+                                .centralizadoNaDiv {
+                                    bottom: 0;
+                                    right: 0;
+                                    position: relative;
+                                    /* display: table; */
+                                    margin: 0 auto;
+                                    left: 50%;
+                                    top: 50%;
+                                    transform: translate(-50%, -50%);
+                                }
+                            </style>
+                        </div>
+                    </div>
+
+                    <!-- Floating Action Button -->
+
+                    <!-- <div class="page-content fundoCinza">
+                        <div class="content-block">
+                            <a href="about.html">cadastro</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- FIM VIEW PRINCIPAL -->
+    </div>
+
+    <script type="text/javascript" src="js/framework7.js"></script>
+    <script type="text/javascript" src="js/myApp.js"></script>
+</body>
+
+</html>
